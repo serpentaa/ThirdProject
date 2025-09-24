@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: fit-content;
+}
+.res {
+    display: inline-flex;
+    min-height: 20px;
+    border: 1px solid #928b86;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.digits {
+    font-size: 20px;
+}
