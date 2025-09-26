@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
+
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-    <input class="digits" type="text" id="num1" placeholder="Введите первое число">
-    <input class="digits" type="text" id="num2" placeholder="Введите второе число">
-    <input class="digits" type="button" onclick="add()" value="Сложить числа">
-    <output class="res" role="status" id="result">
-    </div>
-    
+    <form class="form">
+    <input type="text" id="input1" placeholder="Введите первое число">
+    <input type="text" id="input2" placeholder="Введите второе число">
+    <button id="btn">Суммировать</button>
+    <div id="output">&nbsp</div>
 </body>
 </html>
